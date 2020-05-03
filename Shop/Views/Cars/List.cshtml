@@ -1,0 +1,16 @@
+﻿
+ 
+    <h1>All Cars</h1>
+    <h2>@Model.carrentCategory</h2>
+
+    @{ 
+        foreach(var car in Model.getAllCars)
+        {
+            <div>
+           <h2>Model: @car.name</h2>
+<p>Price: @car.price.ToString("")</p>
+            </div>
+        }
+
+    }
+ 

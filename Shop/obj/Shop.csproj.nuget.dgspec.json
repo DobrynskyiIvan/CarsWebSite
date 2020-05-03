@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\XTreme.ws\\source\\repos\\Shop\\Shop.csproj": {}
+    "C:\\Users\\XTreme.ws\\Source\\Repos\\CarsWeb Site\\Shop\\Shop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\XTreme.ws\\source\\repos\\Shop\\Shop.csproj": {
+    "C:\\Users\\XTreme.ws\\Source\\Repos\\CarsWeb Site\\Shop\\Shop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\XTreme.ws\\source\\repos\\Shop\\Shop.csproj",
+        "projectUniqueName": "C:\\Users\\XTreme.ws\\Source\\Repos\\CarsWeb Site\\Shop\\Shop.csproj",
         "projectName": "Shop",
-        "projectPath": "C:\\Users\\XTreme.ws\\source\\repos\\Shop\\Shop.csproj",
+        "projectPath": "C:\\Users\\XTreme.ws\\Source\\Repos\\CarsWeb Site\\Shop\\Shop.csproj",
         "packagesPath": "C:\\Users\\XTreme.ws\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\XTreme.ws\\source\\repos\\Shop\\obj\\",
+        "outputPath": "C:\\Users\\XTreme.ws\\Source\\Repos\\CarsWeb Site\\Shop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -50,6 +50,10 @@
             "Microsoft.AspNetCore.StaticFiles": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
             }
           },
           "imports": [
