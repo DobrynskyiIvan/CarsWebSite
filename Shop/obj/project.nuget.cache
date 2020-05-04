@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ISQ0Edukr1miZ72I17Bo7s9nurn4sZd+xHGObWl2glIxLSIXdFe0Ti9Ryua7hW0rA9KxDS+/bwl/cvpAWw9FRg==",
+  "dgSpecHash": "KyF6r5oXtBJ4xFSh/+3oLsrOBJ+xztzsDguTxGZod4oLfix/Vmq2sZBYN38fiYhGRAte/DvOtL4lZpko7OQGwA==",
   "success": true,
   "projectFilePath": "C:\\Users\\XTreme.ws\\Source\\Repos\\CarsWeb Site\\Shop\\Shop.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\XTreme.ws\\.nuget\\packages\\bootstrap\\4.4.1\\bootstrap.4.4.1.nupkg.sha512",
+    "C:\\Users\\XTreme.ws\\.nuget\\packages\\jquery\\3.0.0\\jquery.3.0.0.nupkg.sha512",
     "C:\\Users\\XTreme.ws\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.7\\microsoft.aspnet.mvc.5.2.7.nupkg.sha512",
     "C:\\Users\\XTreme.ws\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.7\\microsoft.aspnet.razor.3.2.7.nupkg.sha512",
     "C:\\Users\\XTreme.ws\\.nuget\\packages\\microsoft.aspnet.webpages\\3.2.7\\microsoft.aspnet.webpages.3.2.7.nupkg.sha512",
@@ -48,6 +50,7 @@
     "C:\\Users\\XTreme.ws\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\XTreme.ws\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\XTreme.ws\\.nuget\\packages\\nuget.frameworks\\4.7.0\\nuget.frameworks.4.7.0.nupkg.sha512",
+    "C:\\Users\\XTreme.ws\\.nuget\\packages\\popper.js\\1.16.0\\popper.js.1.16.0.nupkg.sha512",
     "C:\\Users\\XTreme.ws\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\XTreme.ws\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\XTreme.ws\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
