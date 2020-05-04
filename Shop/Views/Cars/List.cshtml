@@ -1,16 +1,20 @@
-﻿
- 
-    <h1>All Cars</h1>
-    <h2>@Model.carrentCategory</h2>
+﻿ 
+<h1>All Cars</h1>
+<h2>@Model.carrentCategory</h2>
+<div class="row mt-5 mb2">
 
-    @{ 
-        foreach(var car in Model.getAllCars)
-        {
-            <div>
-           <h2>Model: @car.name</h2>
-                <p>Price: @car.price.ToString("c")</p>
-            </div>
-        }
-
+@{
+    foreach (var car in Model.getAllCars)
+    {
+        <div class="col-lg-4">
+            <img  alt="@car.name"  src="@car.img" class="img-thumbnail "/>
+            <h2>Model: @car.name</h2>
+            <p>@car.shortDesc</p>
+            <p>Price: @car.price.ToString("c")</p>
+            <p><a class="btn btn-warning" href="#">Details</a></p>
+        </div>
+      
     }
- 
+
+}
+    </div>
