@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Shop.Data.Interfaces;
+using Shop.Data.Models;
 using Shop.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -19,15 +20,41 @@ namespace Shop.Controllers
 
 
         }
-        public ViewResult List()
+        [Route("Cars/List")]
+        [Route("Cars/List/{category}")]
+        public ViewResult List(string category)
         {
-            ViewBag.Title = "Page With Cars";
-            CarsListViewModel obj = new CarsListViewModel();
-            obj.getAllCars = _allCars.Cars;
-            obj.carrentCategory = "Automobiles";
+            string _category = category;
+            IEnumerable<Car> cars = null;
+            string carrCategory = "";
+            if (string.IsNullOrEmpty(category))
+            {
+                cars = _allCars.Cars.OrderBy(i => i.id);
+            }
+            else
+            {
+                if (string.Equals("electro", category, StringComparison.OrdinalIgnoreCase))
+                {
+                    cars = _allCars.Cars.Where(i => i.Category.categoryName == "Electro").OrderBy(i => i.id);
+                    carrCategory = "Electro automobils";
+                }
+                else if (string.Equals("fuel", category, StringComparison.OrdinalIgnoreCase))
+                {
+                    cars = _allCars.Cars.Where(i => i.Category.categoryName == "Disel").OrderBy(i => i.id);
+                    carrCategory = "Diesel cars";
+                }
 
+            }
 
-            return View(obj);
+            var carObj = new CarsListViewModel
+            {
+               getAllCars = cars,
+                carrentCategory = carrCategory
+            };
+            ViewBag.Title = "Page with cars";
+
+            return View(carObj);
         }
+
     }
 }

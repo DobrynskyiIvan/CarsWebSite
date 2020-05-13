@@ -51,6 +51,22 @@
               "target": "Package",
               "version": "[5.2.7, )"
             },
+            "Microsoft.AspNetCore.Http.Extensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Metadata": {
+              "target": "Package",
+              "version": "[5.0.0-preview.3.20215.14, )"
+            },
+            "Microsoft.AspNetCore.Mvc.TagHelpers": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.StaticFiles": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -59,9 +75,17 @@
               "target": "Package",
               "version": "[5.0.0-preview.3.20181.2, )"
             },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.0-preview.3.20181.2, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.0-preview.3.20181.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.2, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -69,13 +93,21 @@
               "target": "Package",
               "version": "[5.0.0-preview.3.20181.2, )"
             },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[5.0.0-preview.3.20215.2, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[3.1.2, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0-preview.3.20214.6, )"
             },
             "bootstrap": {
               "target": "Package",
